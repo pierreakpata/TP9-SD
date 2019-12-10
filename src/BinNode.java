@@ -10,11 +10,12 @@ public class BinNode<T> {
         this.rightChild=null;
     }
 
-    public BinNode(T root, BinNode<T> leftChild, BinNode<T> rightChild){
+    public BinNode(T root){
         this.root=root;
-        this.leftChild=leftChild;
-        this.rightChild=rightChild;
+        this.leftChild=null;
+        this.rightChild=null;
     }
+
 
     public T getRoot() {
         return root;
